@@ -10,7 +10,11 @@ You can simply build this application by running
 
 	$ make
 
-and then running 
+If you are trying to compile for BeagleBoard, use CROSS_COMPILE variable
+
+	$ make CROSS_COMPILE=arm-ctng-linux-gnueabi-
+
+Then you can run it
 	
 	$ ./logger
 
